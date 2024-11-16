@@ -18,19 +18,11 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  #weatherInfo {
-    padding: 1.5rem;
-    background-color: var(--weather-info-bg, #ffffff);
-    border: 1px solid var(--weather-info-border, #ddd);
-    border-radius: 6px;
-    color: var(--weather-text-color, #333);
-    font-size: 1.125rem;
-    line-height: 1.6;
-  }
   
   #weather:hover {
     background-color: var(--weather-hover-bg, #e9ecef);
   }
+  
   
 
  
