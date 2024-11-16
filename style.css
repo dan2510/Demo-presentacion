@@ -23,16 +23,3 @@ body {
 #weather:hover {
     background-color: var(--weather-hover-bg, #e9ecef);
   }
-
-
-  #game-container {
-    width: 800px;
-    height: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-canvas {
-    border: 1px solid #fff;
-}
