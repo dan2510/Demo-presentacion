@@ -1,17 +1,17 @@
 
 // Google Maps API Initialization
 function initMap() {
-  // Crear el mapa centrado en la Universidad Técnica Nacional (Costa Rica)
+
   const map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: 10.00714128347572, lng: -84.21642988116847 }, // Coordenadas de la UTN
     zoom: 15, // Nivel de zoom
   });
 
-  // Agregar un marcador en la ubicación de la UTN
+  
   new google.maps.Marker({
     position: { lat: 10.00714128347572, lng: -84.21642988116847 },
     map: map,
-    title: "Universidad Técnica Nacional", // Título del marcador
+    title: "Universidad Técnica Nacional", 
   });
 }
 // OpenWeather API
