@@ -1,5 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
+   
   }
   
   .hero {
@@ -19,10 +20,19 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
-  #weather:hover {
+#weather:hover {
     background-color: var(--weather-hover-bg, #e9ecef);
   }
-  
-  
 
- 
+
+  #game-container {
+    width: 800px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    border: 1px solid #fff;
+}

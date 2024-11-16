@@ -48,3 +48,4 @@ fetch(`https://api.unsplash.com/photos/?client_id=${unsplashApiKey}`)
   .catch((error) => {
     console.error("Error fetching images:", error);
   });
+
